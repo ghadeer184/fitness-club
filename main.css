@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(./imgs/john-arano-h4i9G-de7Po-unsplash.png);
+    background-size: cover;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.back-ground1 {
+    position: absolute;
+    right: 0;
+    top: -110px;
+    z-index: -1;
+}
+.back-ground2 {
+    position: absolute;
+    bottom: 45px;
+    left: 65px;
+}
+.container {
+    padding: 30px 20px;
+    overflow: hidden;
+    width: 80%;
+}
+.logo img {
+    width: 74px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    cursor: pointer;
+}
+.logo p {
+    position: absolute;
+    top: 44px;
+    left: 99px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #FFF;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.nav-bar {
+    list-style: none;
+    position: absolute;
+    background-color: rgba(252, 213, 0, 58%);
+    font-size: 23px;
+    top: 0px;
+    right: 83px;
+    height: 93px;
+    font-weight: lighter;
+}
+.nav-bar li {
+    display: inline-block;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 34px;
+    display: flex;
+    cursor: pointer;
+}
+.list-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    width: 85px;
+}
+.info-left h1 {
+    padding: 75px 40px 40px 40px;
+    color: white;
+    font-size: 84px;
+    font-weight: bold;
+}
+.info-left .words {
+    padding-left: 40px;
+    width: 410px;
+}
+.info-left .rec {
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.info-left p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 425px;
+    left: 110px;
+}
+button {
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 84px;
+    left: 59px;
+    top: 540px;
+    cursor: pointer;
+}
+.info-right .first {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    text-orientation: inherit;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    background-color: rgba(252, 213, 0, 58%);
+    font-size: 32px;
+    padding: 115px 20px;
+    font-weight: lighter;
+    top: 263px;
+}
+.second {
+    background-color: rgba(252, 213, 0, 58%);
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 30px 698px 30px 52px;
+}
+footer img {
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+    width: 150px;
+}
+footer p {
+    position: absolute;
+    bottom: 25px;
+    right: 782px;
+    font-size: 18px;
+    color: white;
+}
